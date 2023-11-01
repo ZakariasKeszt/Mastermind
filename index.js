@@ -93,5 +93,5 @@ function gameover(){
     newgame(color);
 }
 
-
-
+//Code by: Keszhelyi Zakariás
+//https://github.com/ZakariasKeszt/Mastermind
