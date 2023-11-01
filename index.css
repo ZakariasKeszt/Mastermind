@@ -1,0 +1,73 @@
+p, h1{
+    font-family: Arial;
+}
+body{
+    position: relative;
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(166, 83, 83);
+}
+.box{
+    margin-top: 3px;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px;
+    border: 2px solid black;
+}
+.gridrow{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    border: 1px solid black;
+    width: fit-content;
+}
+.gridcolumn{
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    width: fit-content;
+}
+.returnbox{
+    display: grid;
+    grid-template-columns: 25px 25px;
+    grid-template-rows: 25px 25px;
+}
+.return{
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    border: 1px solid black;
+}
+.divinput{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.clienttext{
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+}
+.ok{
+    width: 100px;
+    height: 35px;
+}
+.buttons{
+    padding-left: 18px;
+    margin-top: 10px;
+    height: fit-content;
+}
+.newgame{
+    height: 30px;
+    width: 200px;
+}
+.rules{
+    position: absolute;
+    left: 400px;
+    top: 10px;
+}

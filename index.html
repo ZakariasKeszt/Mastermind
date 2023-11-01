@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastermind</title>
+</head>
+<body>
+    <div class="map">
+        <div class="gridcolumn">
+            <div class="gridrow">
+                <div class="box" id="box1.1">
+    
+                </div>
+                <div class="box" id="box1.2">
+                    
+                </div>
+                <div class="box" id="box1.3">
+                    
+                </div>
+                <div class="box" id="box1.4">
+                    
+                </div>
+                <div class="returnbox" id="box1.return">
+                    <div class="return" id="return1.1">
+    
+                    </div>
+                    <div class="return" id="return1.2">
+    
+                    </div>
+                    <div class="return" id="return1.3">
+    
+                    </div>
+                    <div class="return" id="return1.4">
+    
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box2.1">
+        
+                </div>
+                <div class="box" id="box2.2">
+                    
+                </div>
+                <div class="box" id="box2.3">
+                    
+                </div>
+                <div class="box" id="box2.4">
+                    
+                </div>
+                <div class="returnbox" id="box2.return">
+                    <div class="return" id="return2.1">
+        
+                    </div>
+                    <div class="return" id="return2.2">
+        
+                    </div>
+                    <div class="return" id="return2.3">
+        
+                    </div>
+                    <div class="return" id="return2.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box3.1">
+        
+                </div>
+                <div class="box" id="box3.2">
+                    
+                </div>
+                <div class="box" id="box3.3">
+                    
+                </div>
+                <div class="box" id="box3.4">
+                    
+                </div>
+                <div class="returnbox" id="box3.return">
+                    <div class="return" id="return3.1">
+        
+                    </div>
+                    <div class="return" id="return3.2">
+        
+                    </div>
+                    <div class="return" id="return3.3">
+        
+                    </div>
+                    <div class="return" id="return3.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box4.1">
+        
+                </div>
+                <div class="box" id="box4.2">
+                    
+                </div>
+                <div class="box" id="box4.3">
+                    
+                </div>
+                <div class="box" id="box4.4">
+                    
+                </div>
+                <div class="returnbox" id="box4.return">
+                    <div class="return" id="return4.1">
+        
+                    </div>
+                    <div class="return" id="return4.2">
+        
+                    </div>
+                    <div class="return" id="return4.3">
+        
+                    </div>
+                    <div class="return" id="return4.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box5.1">
+        
+                </div>
+                <div class="box" id="box5.2">
+                    
+                </div>
+                <div class="box" id="box5.3">
+                    
+                </div>
+                <div class="box" id="box5.4">
+                    
+                </div>
+                <div class="returnbox" id="box5.return">
+                    <div class="return" id="return5.1">
+        
+                    </div>
+                    <div class="return" id="return5.2">
+        
+                    </div>
+                    <div class="return" id="return5.3">
+        
+                    </div>
+                    <div class="return" id="return5.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box6.1">
+        
+                </div>
+                <div class="box" id="box6.2">
+                    
+                </div>
+                <div class="box" id="box6.3">
+                    
+                </div>
+                <div class="box" id="box6.4">
+                    
+                </div>
+                <div class="returnbox" id="box6.return">
+                    <div class="return" id="return6.1">
+        
+                    </div>
+                    <div class="return" id="return6.2">
+        
+                    </div>
+                    <div class="return" id="return6.3">
+        
+                    </div>
+                    <div class="return" id="return6.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box7.1">
+        
+                </div>
+                <div class="box" id="box7.2">
+                    
+                </div>
+                <div class="box" id="box7.3">
+                    
+                </div>
+                <div class="box" id="box7.4">
+                    
+                </div>
+                <div class="returnbox" id="box7.return">
+                    <div class="return" id="return7.1">
+        
+                    </div>
+                    <div class="return" id="return7.2">
+        
+                    </div>
+                    <div class="return" id="return7.3">
+        
+                    </div>
+                    <div class="return" id="return7.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box8.1">
+        
+                </div>
+                <div class="box" id="box8.2">
+                    
+                </div>
+                <div class="box" id="box8.3">
+                    
+                </div>
+                <div class="box" id="box8.4">
+                    
+                </div>
+                <div class="returnbox" id="box8.return">
+                    <div class="return" id="return8.1">
+        
+                    </div>
+                    <div class="return" id="return8.2">
+        
+                    </div>
+                    <div class="return" id="return8.3">
+        
+                    </div>
+                    <div class="return" id="return8.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box9.1">
+        
+                </div>
+                <div class="box" id="box9.2">
+                    
+                </div>
+                <div class="box" id="box9.3">
+                    
+                </div>
+                <div class="box" id="box9.4">
+                    
+                </div>
+                <div class="returnbox" id="box9.return">
+                    <div class="return" id="return9.1">
+        
+                    </div>
+                    <div class="return" id="return9.2">
+        
+                    </div>
+                    <div class="return" id="return9.3">
+        
+                    </div>
+                    <div class="return" id="return9.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box10.1">
+        
+                </div>
+                <div class="box" id="box10.2">
+                    
+                </div>
+                <div class="box" id="box10.3">
+                    
+                </div>
+                <div class="box" id="box10.4">
+                    
+                </div>
+                <div class="returnbox" id="box10.return">
+                    <div class="return" id="return10.1">
+        
+                    </div>
+                    <div class="return" id="return10.2">
+        
+                    </div>
+                    <div class="return" id="return10.3">
+        
+                    </div>
+                    <div class="return" id="return10.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box11.1">
+        
+                </div>
+                <div class="box" id="box11.2">
+                    
+                </div>
+                <div class="box" id="box11.3">
+                    
+                </div>
+                <div class="box" id="box11.4">
+                    
+                </div>
+                <div class="returnbox" id="box11.return">
+                    <div class="return" id="return11.1">
+        
+                    </div>
+                    <div class="return" id="return11.2">
+        
+                    </div>
+                    <div class="return" id="return11.3">
+        
+                    </div>
+                    <div class="return" id="return11.4">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="box" id="box12.1">
+        
+                </div>
+                <div class="box" id="box12.2">
+                    
+                </div>
+                <div class="box" id="box12.3">
+                    
+                </div>
+                <div class="box" id="box12.4">
+                    
+                </div>
+                <div class="returnbox" id="box12.return">
+                    <div class="return" id="return12.1">
+        
+                    </div>
+                    <div class="return" id="return12.2">
+        
+                    </div>
+                    <div class="return" id="return12.3">
+        
+                    </div>
+                    <div class="return" id="return12.4">
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divinput">
+        <input type="text" id="clienttext" class="clienttext">
+        <button class="ok" onclick="game(color, colorcoded)">OK</button>
+    </div>
+    <div class="buttons">
+        <button class="newgame" onclick="newgame(color)">Új játék!</button>
+    </div>
+    <div class="rulesmap">
+        <div class="rules">
+            <h1>A játék szabályai:</h1>
+            <p>A program véletlenszerűen választ a megadott színekből és véletlenszerű sorrendben kombinálja őket.</p>
+            <p>A felhasználónak ezt a kódot kell megfejtenie a program visszajelzései alapján.</p>
+            <p>A játék során 6 szín használható: piros, kék, zöld, sárga, narancssárga, lila.</p>
+            <p>Fehér jelzés: A szín szerepel a megfejtésben, de nem ezen a helyen.</p>
+            <p>Fekete jelzés: A szín ezen a helyen szerepel a megfejtésben.</p>
+            <p>Nincs jelzés: A szín nem szerepel a megfejtésben.</p>
+            <p>Ha új játékot szeretnél kezdeni, akkor nyomj az "Új játék!" gombra.</p>
+            <h1>Sok sikert!</h1>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+<!--Code by: Keszthelyi Zakariás-->
+<!---->
