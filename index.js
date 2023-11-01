@@ -34,6 +34,7 @@ function newgame(color){
 
 function game(color, colorcoded){
     let input = document.getElementById("clienttext").value;
+    document.getElementById('clienttext').value = "";
     if(color.includes(input)){
         guess[guesscounter] = input;
         for(let a = 0; a <= 5; a += 1){
