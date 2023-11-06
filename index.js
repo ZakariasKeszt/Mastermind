@@ -10,7 +10,7 @@ newgame(color);
 
 function newgame(color){
     
-    for(let i = 1; i <= 12; i+=1){
+    for(let i = 1; i <= 10; i+=1){
         for(let o = 1; o <= 4; o+=1){
             document.getElementById(`box${i}.${o}`).style.backgroundColor = "transparent";
         }
@@ -83,7 +83,7 @@ function check(){
             alert("Nyertél! Automatikusan indítunk egy új játékot!");
             newgame(color);
         }
-        else if(row == 13){
+        else if(row == 11){
             gameover();
         }
     }
